@@ -1,19 +1,21 @@
-package com.Practice.finance.service;
+package com.yvsjs.apis.fundtransferservice.service;
 
-import com.Practice.finance.model.TransactionStatus;
-import com.Practice.finance.model.dto.FundTransfer;
-import com.Practice.finance.model.dto.request.FundTransferRequest;
-import com.Practice.finance.model.dto.response.FundTransferResponse;
-import com.Practice.finance.model.entity.FundTransferEntity;
-import com.Practice.finance.model.mapper.FundTransferMapper;
-import com.Practice.finance.model.repository.FundTransferRepository;
+import com.yvsjs.apis.fundtransferservice.model.TransactionStatus;
+import com.yvsjs.apis.fundtransferservice.model.dto.FundTransfer;
+import com.yvsjs.apis.fundtransferservice.model.dto.request.FundTransferRequest;
+import com.yvsjs.apis.fundtransferservice.model.dto.response.FundTransferResponse;
+import com.yvsjs.apis.fundtransferservice.model.entity.FundTransferEntity;
+import com.yvsjs.apis.fundtransferservice.model.mapper.FundTransferMapper;
+import com.yvsjs.apis.fundtransferservice.model.repository.FundTransferRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.UUID;
+
 @Slf4j
 @RequiredArgsConstructor
 @Service

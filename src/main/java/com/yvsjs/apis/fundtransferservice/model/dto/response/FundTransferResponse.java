@@ -1,4 +1,4 @@
-package com.Practice.finance.model.dto.response;
+package com.yvsjs.apis.fundtransferservice.model.dto.response;
 
 import lombok.Data;
 @Data

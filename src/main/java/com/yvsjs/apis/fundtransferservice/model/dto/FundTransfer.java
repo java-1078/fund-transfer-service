@@ -1,6 +1,7 @@
-package com.Practice.finance.model.dto;
+package com.yvsjs.apis.fundtransferservice.model.dto;
 
 import lombok.Data;
+
 import java.math.BigDecimal;
 @Data
 public class FundTransfer {

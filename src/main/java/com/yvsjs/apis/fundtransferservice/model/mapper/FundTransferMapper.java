@@ -1,7 +1,7 @@
-package com.Practice.finance.model.mapper;
+package com.yvsjs.apis.fundtransferservice.model.mapper;
 
-import com.Practice.finance.model.dto.FundTransfer;
-import com.Practice.finance.model.entity.FundTransferEntity;
+import com.yvsjs.apis.fundtransferservice.model.dto.FundTransfer;
+import com.yvsjs.apis.fundtransferservice.model.entity.FundTransferEntity;
 import org.springframework.beans.BeanUtils;
 public class FundTransferMapper extends BaseMapper<FundTransferEntity, FundTransfer> {
     @Override

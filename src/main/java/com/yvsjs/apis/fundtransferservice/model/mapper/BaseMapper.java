@@ -1,4 +1,4 @@
-package com.Practice.finance.model.mapper;
+package com.yvsjs.apis.fundtransferservice.model.mapper;
 
 import java.util.Collection;
 import java.util.List;

@@ -1,11 +1,12 @@
-package com.Practice.finance.model.entity;
+package com.yvsjs.apis.fundtransferservice.model.entity;
 
-import com.Practice.finance.model.TransactionStatus;
+import com.yvsjs.apis.fundtransferservice.model.TransactionStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+
 @Getter
 @Setter
 @Entity
