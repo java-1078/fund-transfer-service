@@ -1,9 +1,13 @@
-package com.yvsjs.apis.fundtransferservice.model.mapper;
+package com.yvsjs.apis.fundtransferservice.mapper;
 
-import com.yvsjs.apis.fundtransferservice.model.dto.FundTransfer;
-import com.yvsjs.apis.fundtransferservice.model.entity.FundTransferEntity;
+import com.yvsjs.apis.fundtransferservice.dtos.FundTransfer;
+import com.yvsjs.apis.fundtransferservice.entity.FundTransferEntity;
 import org.springframework.beans.BeanUtils;
+import org.springframework.stereotype.Component;
+
+@Component
 public class FundTransferMapper extends BaseMapper<FundTransferEntity, FundTransfer> {
+
     @Override
     public FundTransferEntity convertToEntity(FundTransfer dto, Object... args) {
         FundTransferEntity entity = new FundTransferEntity();
@@ -12,6 +16,7 @@ public class FundTransferMapper extends BaseMapper<FundTransferEntity, FundTrans
         }
         return entity;
     }
+
     @Override
     public FundTransfer convertToDto(FundTransferEntity entity, Object... args) {
         FundTransfer dto = new FundTransfer();
@@ -20,4 +25,5 @@ public class FundTransferMapper extends BaseMapper<FundTransferEntity, FundTrans
         }
         return dto;
     }
+
 }
